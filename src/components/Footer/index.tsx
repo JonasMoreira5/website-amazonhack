@@ -11,8 +11,8 @@ function Footer() {
         <div className='flex flex-col gap-4'>
           <img src="/logo-white.svg" alt="" />
           <p className='text-[28px] font-medium'>AmazonHack</p>
-          <p className='w-[210px]'>
-            Juntos tornamos Amazonas mais conectado
+          <p className='w-[210px] text-center text-sm'>
+            Amazônia Conectada: <br />O futuro é agora
           </p>
         </div>
         <div>
@@ -20,21 +20,10 @@ function Footer() {
           <div className='flex gap-2 font-medium mb-4'>
             <EmailRoundedIcon htmlColor='#fff' />
             <p>
-              amazonhack@gmail.com
+              amazonhackcp@gmail.com
             </p>
           </div>
-          <div className='flex gap-2 font-medium mb-4'>
-            <PlaceRoundedIcon htmlColor='#fff' />
-            <p>
-              Rua xxx, Manaus - AM <br /> cep: 123.123-000
-            </p>
-          </div>
-          <div className='flex gap-2 font-medium'>
-            <LocalPhoneRoundedIcon htmlColor='#fff' />
-            <p>
-              92 12345-1234
-            </p>
-          </div>
+
         </div>
       </div>
     </Box>
